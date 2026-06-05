@@ -25,6 +25,7 @@ function App() {
           <a href="#projects" className="hover:text-sky-400">
             Projects
           </a>
+          <a href="#certifications">Certifications</a>
 
           <a href="#contact" className="hover:text-sky-400">
             Contact
@@ -167,6 +168,63 @@ specially-abled children. Immediate joiner dedicated to building scalable and re
         </div>
 
       </section>
+     {/* Certifications */}
+<section
+  id="certifications"
+  className="max-w-5xl mx-auto px-6 pb-20"
+>
+  <h2 className="text-4xl font-bold text-sky-400 mb-8">
+    Certifications
+  </h2>
+
+  <div className="grid md:grid-cols-3 gap-6">
+    
+    {/* SQL Advanced */}
+    <div className="bg-slate-900 p-6 rounded-2xl hover:scale-105 transition duration-300">
+
+      <h3 className="text-xl font-semibold text-sky-300">
+        SQL Advanced Certificate
+      </h3>
+
+      <p className="text-gray-400 mt-2 mb-4">
+        Advanced SQL concepts including joins and subqueries.
+      </p>
+
+      <a
+        href="/certificates/sql-advanced.pdf"
+        target="_blank"
+        rel="noreferrer"
+        className="bg-sky-500 text-black px-4 py-2 rounded-lg font-semibold hover:bg-sky-600"
+      >
+        View Certificate
+      </a>
+
+    </div>
+
+    {/* Excel */}
+    <div className="bg-slate-900 p-6 rounded-2xl hover:scale-105 transition duration-300">
+
+      <h3 className="text-xl font-semibold text-sky-300">
+        MS Excel Certification
+      </h3>
+
+      <p className="text-gray-400 mt-2 mb-4">
+        Data analysis, formulas, functions, and spreadsheet management.
+      </p>
+
+      <a
+        href="/certificates/ms-excel.pdf"
+        target="_blank"
+        rel="noreferrer"
+        className="bg-sky-500 text-black px-4 py-2 rounded-lg font-semibold hover:bg-sky-600"
+      >
+        View Certificate
+      </a>
+
+    </div>
+
+  </div>
+</section>
 
       {/* Contact */}
       <section
